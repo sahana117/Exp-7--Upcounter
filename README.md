@@ -41,6 +41,7 @@ endmodule
 
 ```
 ## Testbench Program
+```
 module tb7;
     reg  clk, rst, en;
     wire [3:0] count;
@@ -91,7 +92,7 @@ module tb7;
         #20 $finish;
     end
     endmodule
-
+```
 
 
 ## Operation / Truth Table
