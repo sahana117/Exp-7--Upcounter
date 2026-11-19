@@ -95,7 +95,7 @@ module tb7;
 ```
 
 
-## Operation / Truth Table
+### Operation / Truth Table
 
 State transition (en = 1, rst = 0 unless noted)
 
@@ -125,7 +125,7 @@ Other option:
 dve -full64 &
 A DVE environment will open.
 
-## DVE Waveform Verification
+### DVE Waveform Verification
 
 In DVE:
 
@@ -147,7 +147,7 @@ In DVE:
 
 The waveform should agree with the state transition table.
 
-## Expected Result
+### Expected Result
 
 The 4-bit Synchronous Up-Counter was realized using Verilog HDL, with the characteristic behaviour:
 
@@ -156,7 +156,7 @@ count(next) = count + 1   (when en = 1), wrapping from 1111 to 0000
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected state transition table.
 
-## Output
+### Output
 
 <img width="1920" height="1020" alt="Screenshot 2026-11-16 232300" src="https://github.com/user-attachments/assets/de7087e1-c69b-4a11-83fb-ab02c1b37db3" />
 
