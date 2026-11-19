@@ -94,7 +94,7 @@ module tb7;
     endmodule
 ```
 
-
+```
 ### Operation / Truth Table
 
 State transition (en = 1, rst = 0 unless noted)
